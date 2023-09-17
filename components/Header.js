@@ -1,6 +1,8 @@
+
+
 const Header = () => {
   return (
-  <header>
+  <header className="absolute z-30 w-full">
     Header
   </header>
   );
