@@ -25,7 +25,7 @@ const Home = () => {
       </p>
       {/* button */}
       <div>
-        <ProjectsBtn />
+        <ProjectsBtn  />
       </div>
       </div>
     </div>
