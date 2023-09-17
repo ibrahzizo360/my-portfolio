@@ -1,5 +1,7 @@
 
 import ProjectsBtn from '../components/ProjectsBtn'
+import { fadeIn } from '../variants';
+import { motion } from 'framer-motion';
 
 
 const Home = () => {
@@ -11,22 +13,39 @@ const Home = () => {
       <div className="text-center flex flex-col justify-center xl:pt-40
       xl:text-left h-full container mx-auto">
       {/* title */}
-      <h1 className="h1">
+      <motion.h1 
+      variants = {fadeIn('down', 0.2)}
+      initial='hidden'
+      animate='show'
+      exit='hidden'
+      className="h1">
         Transforming Ideas <br /> Into {' '}
           <span className='text-accent'>Digital Reality</span>
-      </h1>
+      </motion.h1>
       {/* subtitle */}
-      <p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
+      <motion.p 
+        variants = {fadeIn('down', 0.3)}
+        initial='hidden'
+        animate='show'
+        exit='hidden'
+        className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
         I'm a full-stack developer based in the Philippines. I specialize in
         building exceptional digital experiences. Currently, I'm focused on
         building accessible, human-centered products at{' '}
         <span className='text-accent'>Upwork</span> for a diverse range of
         clients.
-      </p>
+      </motion.p>
       {/* button */}
-      <div>
+      <div className="flex justify-center xl:hidden relative">
         <ProjectsBtn  />
       </div>
+      <motion.div variants = {fadeIn('down', 0.4)}
+       initial='hidden'
+       animate='show'
+       exit='hidden'
+       className='hidden xl:flex'>
+        <ProjectsBtn />
+      </motion.div>
       </div>
     </div>
     {/* image */}
