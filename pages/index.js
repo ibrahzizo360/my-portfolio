@@ -21,8 +21,8 @@ const Home = () => {
       animate='show'
       exit='hidden'
       className="h1">
-        Transforming Ideas <br /> Into {' '}
-          <span className='text-accent'>Digital Reality</span>
+        Manifesting ideas <br /> in the {' '}
+        <span className='text-accent'>Digital World</span>
       </motion.h1>
       {/* subtitle */}
       <motion.p 
@@ -30,12 +30,10 @@ const Home = () => {
         initial='hidden'
         animate='show'
         exit='hidden'
-        className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-        I'm a full-stack developer based in the Philippines. I specialize in
-        building exceptional digital experiences. Currently, I'm focused on
-        building accessible, human-centered products at{' '}
-        <span className='text-accent'>Upwork</span> for a diverse range of
-        clients.
+        className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-7">
+        I'm an adept full-stack developer and technical writer based in Ghana, committed to creating exceptional digital experiences.
+        Proficient in simplifying technical concepts for diverse audiences, I excel in both front-end and back-end development, guaranteeing efficient and user-friendly projects.
+        My focus is on delivering digital excellence and translating ideas into engaging web applications.
       </motion.p>
       {/* button */}
       <div className="flex justify-center xl:hidden relative">
@@ -65,7 +63,7 @@ const Home = () => {
       animate='show'
       exit='hidden'
       transition={{duration: 1, ease: 'easeInOut'}}
-      className='w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32
+      className='w-full h-full max-w-[707px] max-h-[678px] absolute -bottom-32
        lg:bottom-0 lg:right-[8%]'>
         <Avatar />
       </motion.div>

@@ -11,13 +11,11 @@ const Header = () => {
       py-8">
         {/* logo */}
         <Link href={'/'}>
-          <Image
-            src={'/logo.svg'}
-            width={220}
-            height={48}
-            alt=""
-            priority={true}
-          />  
+          <span className="flex">
+            <p className="font-bold text-3xl text-white mr-2">ibrahim</p>
+            <p className="text-3xl text-white mr-1">Aziz</p>
+            <span className="text-accent text-3xl">.</span>
+          </span>
         </Link>
         {/* socials */}
         <Socials />
