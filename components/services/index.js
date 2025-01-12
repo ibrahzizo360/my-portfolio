@@ -1,7 +1,7 @@
 import {motion} from 'framer-motion'
-import Circles from '../../components/Circles';
-import Bulb from '../../components/Bulb'
-import ServiceSlider from '../../components/ServiceSlider'
+import Circles from '../Circles';
+import Bulb from '../Bulb'
+import ServiceSlider from '../ServiceSlider'
 import { fadeIn } from '../../variants';
 
 const Services = () => {
@@ -26,8 +26,7 @@ const Services = () => {
           animate='show'
           exit={'hidden'} 
           className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-          lorem-ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
-          lorem-ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+          I focus on product design, data analysis, and user experience design, creating visually appealing and functional digital experiences that are data-driven and user-centric. My ability to combine design aesthetics with coding and data analysis allows me to realize my clients' visions with accuracy and creativity.
           </motion.p>
         </div>
         {/* slider */}

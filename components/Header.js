@@ -12,8 +12,8 @@ const Header = () => {
         {/* logo */}
         <Link href={'/'}>
           <span className="flex">
-            <p className="font-bold text-3xl text-white mr-2">ibrahim</p>
-            <p className="text-3xl text-white mr-1">Aziz</p>
+            <p className="font-bold text-xl lg:text-3xl text-white mr-2">Ohene</p>
+            <p className="lg:text-3xl text-xl text-white mr-1">-Agyekum</p>
             <span className="text-accent text-3xl">.</span>
           </span>
         </Link>

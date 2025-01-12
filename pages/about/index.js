@@ -6,6 +6,7 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaPython,
 } from "react-icons/fa";
 
 import {
@@ -13,6 +14,12 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiMiro,
+  SiR,
+  SiOpencv,
+  SiTensorflow,
+  SiArduino,
+  SiMakerbot,
 } from "react-icons/si";
 import Circles from "../../components/Circles";
 import Avatar from "../../components/Avatar";
@@ -28,20 +35,17 @@ const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'Data Analysis',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaPython />,
+          <SiOpencv />,
+          <SiTensorflow />,
+          <SiR />,
         ],
       },
       {
-        title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        title: 'Product Design',
+        icons: [<FaFigma />, <SiMiro />, <SiFramer />, <SiArduino />, <SiMakerbot />],
       },
     ],
   },
@@ -49,12 +53,24 @@ const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: 'UGASS Hackathon, University of Ghana - Winner',
+        stage: '2023',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Statsbank Hackathon, Ghana Statistical Services - Finalist',
+        stage: '2023',
+      },
+      {
+        title: '7th Global Design for Education, China - Semi-finalist',
+        stage: '2024',
+      },
+      {
+        title: 'African Techology Forum AI Challenge, OpenAI - Participant',
+        stage: '2024',
+      },
+      {
+        title: 'Digital Public Goods Contest, UNICEF - Participant',
+        stage: '2024',
       },
     ],
   },
@@ -62,16 +78,20 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'UX/UI Designer (Intern)  -  Lastmal Inc.',
+        stage: '2021 - 2022',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'UX/UI Designer - Change Promotions Limited',
+        stage: '2022 - 2023',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Head of Data Strategies - Atempong TV',
+        stage: '2022 - 2023',
+      },
+      {
+        title: 'Product Designer - Flexi Payments Inc.',
+        stage: '2023 - 2024',
       },
     ],
   },
@@ -79,16 +99,12 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: ' Google UX Design Certificate - Google Inc.',
+        stage: '2023',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'BSc. Statistics & Computer Science - University of Ghana',
+        stage: '2024',
       },
     ],
   },
@@ -126,9 +142,7 @@ const About = () => {
           animate="show"
           exit={"hidden"}
           className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-              I'm a freelance web designer and developer based in Los Angeles,
-              CA. I enjoy creating websites and applications that are fast,
-              beautiful and easy to use.
+             Ohene-Agyekum Addo-Agyekum is a talented designer and data analyst known for his creative and technical skills. He excels in creating visually stunning, data-driven, and user-centric digital experiences. With a passion for research, Ohene seamlessly blends design aesthetics with coding and data analysis, bringing his clients' visions to life with precision and innovation.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -143,7 +157,7 @@ const About = () => {
               <div className="relative flex-1 after:w-[1px] after:h-full
               after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={5} duration={5} /> +
+                  <CountUp start={0} end={3} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4]
                 max-w-[100px]">Years of experience</div>
@@ -152,7 +166,7 @@ const About = () => {
               <div className="relative flex-1 after:w-[1px] after:h-full
               after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={25} duration={5} /> +
+                  <CountUp start={0} end={12} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4]
                 max-w-[100px]">Satisfied clients</div>

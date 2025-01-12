@@ -31,9 +31,7 @@ const Home = () => {
         animate='show'
         exit='hidden'
         className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-7">
-        I'm an adept full-stack developer and technical writer based in Ghana, committed to creating exceptional digital experiences.
-        Proficient in simplifying technical concepts for diverse audiences, I excel in both front-end and back-end development, guaranteeing efficient and user-friendly projects.
-        My focus is on delivering digital excellence and translating ideas into engaging web applications.
+        Ohene-Agyekum Addo-Agyekum is a talented and passionate designer and data analyst renowned for his creative prowess and technical expertise. With a keen interest in research, he excels at crafting visually stunning and functional digital experiences that are data-driven and user-centric. Ohene's unique ability to seamlessly blend design aesthetics with coding and data analysis allows him to bring his clients&apos; visions to life with precision and innovation.
       </motion.p>
       {/* button */}
       <div className="flex justify-center xl:hidden relative">

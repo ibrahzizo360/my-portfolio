@@ -2,26 +2,27 @@
 const testimonialData = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
+    name: 'Amina Kone',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'The service was exceptional and the product exceeded my expectations. I will definitely recommend it to others!',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
+    name: 'Kwame Mensah',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'A truly remarkable experience! The team was professional and attentive to all my needs.',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
+    name: 'Fatima Diallo',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'I am thoroughly impressed with the quality and efficiency of the service. Thank you for making my experience memorable.',
   },
 ];
+
 
 // data
 const workSlides = {
