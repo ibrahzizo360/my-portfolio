@@ -100,7 +100,7 @@ const aboutData = [
     info: [
       {
         title: " Google UX Design Certificate - Google Inc.",
-        stage: "2023",
+        stage: "2020",
       },
       {
         title: "BSc. Statistics & Computer Science - University of Ghana",
